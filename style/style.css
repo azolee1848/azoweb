@@ -2,7 +2,26 @@ body {
     background-color: cornflowerblue;
 }
 
-h1, h4 {
-    color: white;
-    text-align: center;
+header {
+    display: flex;
+    margin: 0 5rem;
+}
+
+header a {
+    text-decoration: none;
+}
+
+#logo {
+    white-space: nowrap;
+}
+
+#logo__image {
+    width: 1rem;
+    height: 1 rem;
+}
+
+#menu {
+    display: flex;
+    justify-content: space-around;
+    flex: 1 1 90%;
 }
