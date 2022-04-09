@@ -8,19 +8,47 @@
     <title>AZoWEB - honlap egyszerűen</title>
 </head>
 <body>
-    <header>
-        <section id="logo">
+    <header id="header"> 
+        <section id="header__container">
+            
+            <section id="logo">
+                <a id="logo__link" href="">
+                    <img id="logo__image" src="./image/logo.png" alt="">
+                    <span id="logo__text">AZoWEB</span>
+                </a>
+            </section>
+            <section id="push-menu-to-the-right">
+                <section id="menu">
+                    <a class="menu__link" href="">Menüpont 1</a>
+                    <a class="menu__link" href="">Menüpont 2</a>
+                    <a class="menu__link" href="">Menüpont 3</a>
+                    <a class="menu__link" href="">Menüpont 4</a>
+                </section>
+
+                <section id="menu-toggle-button">
+                    <img id="menu-toggle-gutton__image" src="./image/menu-close-button.svg" alt="">
+                </section>
+            </section>
+
+        </section>
+
+        <!-- <section id="logo" class="gray">
             <a id="logo__link" href="">
                 <img id="logo__image" src="./image/logo.png" alt="">
                 <span id="logo__text">AZoWEB</span>
             </a>
         </section>
+
         <section id="menu">
             <a class="menu__link" href="">First</a>
+            <span>/</span>
             <a class="menu__link" href="">Second</a>
+            <span>/</span>
             <a class="menu__link" href="">Third</a>
+            <span>/</span>
             <a class="menu__link" href="">Fourth</a>
-        </section>
+        </section> -->
+
     </header>
     <script src="script/script.js"></script>
 </body>

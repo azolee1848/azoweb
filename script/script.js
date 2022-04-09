@@ -1,1 +1,16 @@
-console.log("I'm alive.");
+document.addEventListener('DOMContentLoaded', function() {
+     let menu = document.getElementById('menu');
+     let hideMenuButton = document.getElementById('menu-toggle-button');
+     let initialWidthOfTheMenu = getComputedStyle(menu).width;
+ 
+     setTimeout(function(){menu.style.width = '0';},2000);
+ 
+     hideMenuButton.onclick = function () {
+         console.log(getComputedStyle(menu).width)
+         if (parseInt(getComputedStyle(menu).width,10) > 0) {
+             menu.style.width = '0';
+         } else {
+             menu.style.width = initialWidthOfTheMenu;
+         }
+     }; 
+ });

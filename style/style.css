@@ -1,14 +1,25 @@
 body {
-    background-color: cornflowerblue;
+    margin: 0;
+    padding: 0;
 }
 
-header {
+#header {
     display: flex;
-    margin: 0 5rem;
+    background-color: rgb(25, 25, 25);
 }
 
-header a {
+#header__container {
+    display: flex;
+    flex: 1 1 auto;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 5rem;
+    /* background-color: red; */
+}
+
+#header a {
     text-decoration: none;
+    color: aliceblue;
 }
 
 #logo {
@@ -17,11 +28,45 @@ header a {
 
 #logo__image {
     width: 1rem;
-    height: 1 rem;
+    height: 1rem;
 }
 
 #menu {
     display: flex;
-    justify-content: space-around;
-    flex: 1 1 90%;
+    align-items: center;
+    justify-content: center;
+    width: 28rem;
+    transition: width 0.3s;
+    overflow: hidden;
+}
+
+.menu__link {
+    display: inline-flex;
+    white-space: nowrap;
+    margin-right: 2rem;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+#menu-toggle-gutton {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+#menu-toggle-gutton__image {
+    display: flex;
+    width: 1rem;
+    height: 1rem;
+    opacity: 0.8;
+    transition: opacity 0.3s;
+}
+
+#menu-toggle-gutton__image:hover {
+    opacity: 1;
+    transition: opacity 0.3s;
+}
+
+#push-menu-to-the-right {
+    display: flex;
 }
