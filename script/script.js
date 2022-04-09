@@ -6,7 +6,6 @@ document.addEventListener('DOMContentLoaded', function() {
      setTimeout(function(){menu.style.width = '0';},2000);
  
      hideMenuButton.onclick = function () {
-         console.log(getComputedStyle(menu).width)
          if (parseInt(getComputedStyle(menu).width,10) > 0) {
              menu.style.width = '0';
          } else {

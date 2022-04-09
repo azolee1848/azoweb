@@ -5,11 +5,12 @@ body {
 
 #header {
     display: flex;
-    background-color: rgb(25, 25, 25);
+    background-color: rgba(0, 0, 0, 0.134);
 }
 
 #header__container {
     display: flex;
+    height: 2rem;
     flex: 1 1 auto;
     justify-content: space-between;
     align-items: center;
@@ -19,7 +20,6 @@ body {
 
 #header a {
     text-decoration: none;
-    color: aliceblue;
 }
 
 #logo {
@@ -36,25 +36,25 @@ body {
     align-items: center;
     justify-content: center;
     width: 28rem;
+    height: 2rem;
     transition: width 0.3s;
     overflow: hidden;
 }
 
 .menu__link {
-    display: inline-flex;
+    display: flex;
     white-space: nowrap;
     margin-right: 2rem;
-    margin-top: auto;
-    margin-bottom: auto;
 }
 
-#menu-toggle-gutton {
+#menu-toggle-button {
     display: flex;
     justify-content: center;
-    align-content: center;
+    align-items: center;
+    height: 2rem;
 }
 
-#menu-toggle-gutton__image {
+#menu-toggle-button__image {
     display: flex;
     width: 1rem;
     height: 1rem;
@@ -62,7 +62,7 @@ body {
     transition: opacity 0.3s;
 }
 
-#menu-toggle-gutton__image:hover {
+#menu-toggle-button__image:hover {
     opacity: 1;
     transition: opacity 0.3s;
 }
