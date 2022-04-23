@@ -14,6 +14,7 @@ body {
 
 #header {
     display: flex;
+    margin: 1rem 5rem;
 }
 
 #header__container {
@@ -22,7 +23,6 @@ body {
     flex: 1 1 auto;
     justify-content: space-between;
     align-items: center;
-    margin: 0 5rem;
     background-color: rgb(35, 35, 35);
     opacity: 0.8;;
 }
@@ -113,4 +113,60 @@ body {
 
 #push-menu-to-the-right {
     display: flex;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 1rem 5rem;
+}
+
+.dashboardLeftTopPolygon {
+    display: flex;
+    justify-content: center;
+    flex-basis: 49%;
+    align-items: center;
+    height: 20rem;
+    background-color: beige;
+    clip-path: polygon(0% 0%, 100% 0%, 100% 66%, 66% 100%, 0% 100%);
+}
+
+.dashboardRightTopPolygon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-basis: 49%;
+    height: 20rem;
+    background-color: beige;
+    margin-left: 1rem;
+    clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 33% 100%, 0% 66%);
+}
+
+.dashboardLeftBottomPolygon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-basis: 49%;
+    height: 20rem;
+    margin-top: 1rem;
+    background-color: beige;
+    clip-path: polygon(0% 0%, 66% 0%, 100% 33%, 100% 100%, 0% 100%);
+}
+
+.dashboardRightBottomPolygon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20rem;
+    flex-basis: 49%;
+    background-color: beige;
+    margin-left: 1rem;
+    margin-top: 1rem;
+    clip-path: polygon(33% 0%, 100% 0%, 100% 100%, 0% 100%, 0% 33%);
+}
+
+.flex-break {
+    display: flex;
+    flex-basis: 100%;
+    height: 0;
 }
