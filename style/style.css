@@ -6,6 +6,14 @@
   font-style: normal;
 }
 
+@font-face {
+  font-family: "roboto";
+  src: url("fonts/roboto-thin-webfont.woff2") format("woff2"),
+    url("fonts/roboto-thin-webfont.woff") format("woff");
+  font-weight: thin;
+  font-style: normal;
+}
+
 :root {
   --polygonSize: 49.3%;
   --polygonFontSize: 4rem;
@@ -135,6 +143,7 @@ main {
   max-width: 50rem;
   flex: 1 1 auto;
   min-width: 50rem;
+  font-size: 1rem;
 }
 
 .main-container {
@@ -145,6 +154,22 @@ main {
   flex: 1 1 auto;
   min-width: 50rem;
   margin: 0 1rem;
+}
+
+#main-text-content {
+  display: block;
+  max-width: 50rem;
+  min-width: 50rem;
+  font-size: 1rem;
+  font-family: "Roboto", sans-serif;
+}
+
+h1 {
+  font-size: 2rem;
+}
+
+h2 {
+  font-size: 1rem;
 }
 
 #dashboardLeftTopPolygon {
