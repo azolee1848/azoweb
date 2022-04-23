@@ -22,9 +22,15 @@ document.addEventListener("DOMContentLoaded", function () {
   document.getElementById("dashboardRightTopPolygon").onclick = function () {
     console.log("Right top.");
   };
+
+  document.getElementById("callForActionPolygon").onclick = function () {
+    console.log("Email me!");
+  };
+
   document.getElementById("dashboardLeftBottomPolygon").onclick = function () {
     console.log("Left bottom.");
   };
+
   document.getElementById("dashboardRightBottomPolygon").onclick = function () {
     console.log("Right bottom.");
   };
