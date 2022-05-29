@@ -24,7 +24,7 @@ document.addEventListener("DOMContentLoaded", function () {
   };
 
   document.getElementById("callForActionPolygon").onclick = function () {
-    console.log("Email me!");
+    window.open("mailto:info@azoweb.hu?subject=Frontend work");
   };
 
   document.getElementById("dashboardLeftBottomPolygon").onclick = function () {
