@@ -218,7 +218,6 @@ h2 {
   background-color: var(--polygonBackgroundColor);
   color: var(--polygonTextColor);
   height: 20rem;
-  /* margin-top: 0.5rem; */
   transition: all 0.3s;
   margin-right: auto;
   clip-path: polygon(0% 0%, 66% 0%, 100% 33%, 100% 100%, 0% 100%);
@@ -262,9 +261,6 @@ h2 {
   width: 24.95rem;
   height: 20rem;
   margin: -9.675rem -6rem;
-  -webkit-transform: scale(0.6);
-  -moz-transform: scale(0.6);
-  -o-transform: scale(0.6);
   transform: scale(0.6);
   justify-content: center;
   align-items: center;
@@ -274,9 +270,6 @@ h2 {
 }
 
 #callForActionPolygon:hover {
-  -webkit-transform: scale(0.55);
-  -moz-transform: scale(0.55);
-  -o-transform: scale(0.55);
   transform: scale(0.55);
   opacity: 0.8;
   cursor: pointer;
