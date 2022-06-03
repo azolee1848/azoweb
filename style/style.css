@@ -15,8 +15,8 @@
 }
 
 :root {
-  --polygonSize: 49.3%;
-  --polygonFontSize: 4rem;
+  --polygonSize: calc(50% - 0.3rem);
+  --polygonFontSize: 2rem;
   --polygonBackgroundColor: rgb(165, 165, 165);
   --polygonTextColor: white;
   --polygonEnvelopeIconSize: 40%;
@@ -29,21 +29,24 @@ body {
   font-family: "philo", Arial, Helvetica, sans-serif;
 }
 
+/* HEADER */
+
 #header {
   display: flex;
-  margin: 1rem auto;
+  margin: 0 auto;
   max-width: 50rem;
-  min-width: 50rem;
+  min-width: 20rem;
+  background-color: beige;
 }
 
 #header__container {
   display: flex;
   height: 2rem;
-  min-width: 50rem;
+  min-width: 20rem;
   flex: 1 1 auto;
   justify-content: space-between;
   align-items: center;
-  margin: 0 1rem;
+  margin: 0 0;
   background-color: rgb(35, 35, 35);
   opacity: 0.8;
 }
@@ -51,6 +54,8 @@ body {
 #header a {
   text-decoration: none;
 }
+
+/* HEADER__LOGO */
 
 #logo {
   display: flex;
@@ -88,11 +93,13 @@ body {
   color: white;
 }
 
+/* HEADER__MENU */
+
 #menu {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 24.5rem;
+  width: 15rem;
   height: 2rem;
   transition: width 0.3s;
   overflow: hidden;
@@ -110,7 +117,7 @@ body {
   opacity: 1;
 }
 
-.last_link {
+.menu__link-last {
   margin-right: 0;
 }
 
@@ -142,23 +149,21 @@ body {
   display: flex;
 }
 
+/* MAIN */
+
 main {
-  display: flex;
-  margin: 1rem auto;
   max-width: 50rem;
-  flex: 1 1 auto;
-  min-width: 50rem;
-  font-size: 1rem;
+  min-width: 20rem;
+  margin: 0 auto;
+  /* background-color: red; */
+  box-sizing: border-box;
 }
 
 .main-container {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
-  max-width: 50rem;
   flex: 1 1 auto;
-  min-width: 50rem;
-  margin: 0 1rem;
+  row-gap: 0.3rem;
 }
 
 h1 {
@@ -169,24 +174,26 @@ h2 {
   font-size: 1rem;
 }
 
+/* MAIN__DASHBOARD */
+
 #dashboardLeftTopPolygon {
   display: flex;
   justify-content: center;
+  align-items: center;
   flex-basis: var(--polygonSize);
   font-size: var(--polygonFontSize);
   background-color: var(--polygonBackgroundColor);
   color: var(--polygonTextColor);
-  align-items: center;
-  height: 20rem;
   transition: all 0.3s;
-  margin-right: auto;
+  aspect-ratio: 361.86 / 320;
+  margin-right: 0.3rem;
   clip-path: polygon(0% 0%, 100% 0%, 100% 66%, 66% 100%, 0% 100%);
 }
 
 #dashboardLeftTopPolygon:hover {
   cursor: pointer;
   opacity: 0.8;
-  transform: scale(0.9);
+  transform: scale(0.98);
 }
 
 #dashboardRightTopPolygon {
@@ -197,16 +204,16 @@ h2 {
   font-size: var(--polygonFontSize);
   background-color: var(--polygonBackgroundColor);
   color: var(--polygonTextColor);
-  height: 20rem;
   transition: all 0.3s;
-  margin-left: auto;
+  aspect-ratio: 361.86 / 320;
+  margin-left: 0.3rem;
   clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 33% 100%, 0% 66%);
 }
 
 #dashboardRightTopPolygon:hover {
   cursor: pointer;
   opacity: 0.8;
-  transform: scale(0.9);
+  transform: scale(0.98);
 }
 
 #dashboardLeftBottomPolygon {
@@ -217,29 +224,28 @@ h2 {
   font-size: var(--polygonFontSize);
   background-color: var(--polygonBackgroundColor);
   color: var(--polygonTextColor);
-  height: 20rem;
+  aspect-ratio: 361.86 / 320;
   transition: all 0.3s;
-  margin-right: auto;
+  margin-right: 0.3rem;
   clip-path: polygon(0% 0%, 66% 0%, 100% 33%, 100% 100%, 0% 100%);
 }
 
 #dashboardLeftBottomPolygon:hover {
   cursor: pointer;
   opacity: 0.8;
-  transform: scale(0.9);
+  transform: scale(0.98);
 }
 
 #dashboardRightBottomPolygon {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 20rem;
+  aspect-ratio: 361.86 / 320;
   flex-basis: var(--polygonSize);
   font-size: var(--polygonFontSize);
   background-color: var(--polygonBackgroundColor);
   color: var(--polygonTextColor);
-  margin-left: auto;
-  /* margin-top: 0.5rem; */
+  margin-left: 0.3rem;
   transition: all 0.3s;
   clip-path: polygon(33% 0%, 100% 0%, 100% 100%, 0% 100%, 0% 33%);
 }
@@ -247,7 +253,7 @@ h2 {
 #dashboardRightBottomPolygon:hover {
   cursor: pointer;
   opacity: 0.8;
-  transform: scale(0.9);
+  transform: scale(0.98);
 }
 
 .flex-break {
@@ -256,21 +262,25 @@ h2 {
   height: 0;
 }
 
-#callForActionPolygon {
+/* #callForActionPolygon {
   display: flex;
+  left: 13.395rem;
+  top: 14.15rem;
   width: 24.95rem;
   height: 20rem;
-  margin: -9.675rem -6rem;
+  margin: 0 12.47rem;
+  justify-self: center;
   transform: scale(0.6);
   justify-content: center;
   align-items: center;
   clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
   background-color: var(--polygonBackgroundColor);
   transition: all 0.3s ease-in-out;
-}
+  position: absolute;
+} */
 
 #callForActionPolygon:hover {
-  transform: scale(0.55);
+  transform: scale(0.58);
   opacity: 0.8;
   cursor: pointer;
 }
