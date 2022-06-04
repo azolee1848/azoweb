@@ -23,7 +23,7 @@ document.addEventListener("DOMContentLoaded", function () {
     console.log("Right top.");
   };
 
-  document.getElementById("callForActionPolygon").onclick = function () {
+  document.getElementById("callForActionCenterImage").onclick = function () {
     window.open("mailto:info@azoweb.hu?subject=Frontend work");
   };
 
