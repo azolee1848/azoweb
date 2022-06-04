@@ -277,11 +277,11 @@ h2 {
   transform: scale(0.98);
 }
 
-.flex-break {
+/* .flex-break {
   display: flex;
   flex-basis: 100%;
   height: 0;
-}
+} */
 
 #callForActionPolygon:hover {
   cursor: pointer;
