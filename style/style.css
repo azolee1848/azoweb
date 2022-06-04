@@ -81,14 +81,14 @@ body {
   display: flex;
   height: 2rem;
   opacity: 0.8;
-  transition: opacity 0.3s;
+  transition: opacity 0.3s ease-in-out;
   white-space: nowrap;
   width: 7rem;
 }
 
 #logo:hover {
   opacity: 1;
-  transition: opacity 0.3s;
+  transition: opacity 0.3s ease-in-out;
 }
 
 #logo__image {
@@ -118,7 +118,7 @@ body {
   height: 2rem;
   justify-content: center;
   overflow: hidden;
-  transition: width 0.3s;
+  transition: width 0.3s ease-in-out;
   width: 15rem;
 }
 
@@ -147,13 +147,13 @@ body {
   height: 2rem;
   justify-content: center;
   opacity: 0.8;
-  transition: opacity 0.3s;
+  transition: opacity 0.3s ease-in-out;
   width: 2rem;
 }
 
 #menu-toggle-button:hover {
   opacity: 1;
-  transition: opacity 0.3s;
+  transition: opacity 0.3s ease-in-out;
 }
 
 #menu-button-image {
@@ -205,7 +205,7 @@ h2 {
   font-size: var(--polygonFontSize);
   justify-content: center;
   margin-right: 0.3rem;
-  transition: all 0.2s;
+  transition: all 0.2s ease-in-out;
 }
 
 #dashboardLeftTopPolygon:hover {
@@ -226,7 +226,7 @@ h2 {
   font-size: var(--polygonFontSize);
   justify-content: center;
   margin-left: 0.3rem;
-  transition: all 0.2s;
+  transition: all 0.2s ease-in-out;
 }
 
 #dashboardRightTopPolygon:hover {
@@ -247,7 +247,7 @@ h2 {
   font-size: var(--polygonFontSize);
   justify-content: center;
   margin-right: 0.3rem;
-  transition: all 0.2s;
+  transition: all 0.2s ease-in-out;
 }
 
 #dashboardLeftBottomPolygon:hover {
@@ -268,7 +268,7 @@ h2 {
   font-size: var(--polygonFontSize);
   justify-content: center;
   margin-left: 0.3rem;
-  transition: all 0.2s;
+  transition: all 0.2s ease-in-out;
 }
 
 #dashboardRightBottomPolygon:hover {
