@@ -1,3 +1,42 @@
-<section id="html-description">
-  <p>HTML is good. Use it!</p>
-</section>
+<!DOCTYPE html>
+<html lang="hu">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style/style.css" />
+    <title>AZoWEB - honlap egyszerűen</title>
+  </head>
+  <body>
+    <header id="header">
+      <section id="header__container">
+        <section id="logo">
+          <a id="logo__link" href="index.html">
+            <img id="logo__image" src="image/logo.png" alt="" />
+            <span id="logo__text">AZoWEB</span>
+          </a>
+        </section>
+        <section id="push-menu-to-the-right">
+          <section id="menu">
+            <a class="menu__link" href="html.html">HTML</a>
+            <a class="menu__link" href="css.html">CSS</a>
+            <a class="menu__link" href="js.html">JS</a>
+            <a class="menu__link last_link" href="react.html">React</a>
+          </section>
+          <section id="menu-toggle-button">
+            <img id="menu-button-image" src="image/menu-button.svg" alt="" />
+          </section>
+        </section>
+      </section>
+    </header>
+
+    <main>
+      <section class="main-container">
+        <h1>Super-duper HTML page.</h1>
+      </section>
+    </main>
+
+    <footer></footer>
+    <script src="script/script.js"></script>
+  </body>
+</html>

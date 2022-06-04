@@ -16,11 +16,11 @@ document.addEventListener("DOMContentLoaded", function () {
   };
 
   document.getElementById("dashboardLeftTopPolygon").onclick = function () {
-    console.log("Left top.");
+    window.location.href = "html.html";
   };
 
   document.getElementById("dashboardRightTopPolygon").onclick = function () {
-    console.log("Right top.");
+    window.location.href = "css.html";
   };
 
   document.getElementById("callForActionCenterImage").onclick = function () {
@@ -28,10 +28,10 @@ document.addEventListener("DOMContentLoaded", function () {
   };
 
   document.getElementById("dashboardLeftBottomPolygon").onclick = function () {
-    console.log("Left bottom.");
+    window.location.href = "js.html";
   };
 
   document.getElementById("dashboardRightBottomPolygon").onclick = function () {
-    console.log("Right bottom.");
+    window.location.href = "react.html";
   };
 });
