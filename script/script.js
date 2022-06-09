@@ -16,11 +16,11 @@ document.addEventListener("DOMContentLoaded", function () {
   };
 
   document.getElementById("dashboardLeftTopPolygon").onclick = function () {
-    window.location.href = "html.html";
+    window.location.href = "technologies.html";
   };
 
   document.getElementById("dashboardRightTopPolygon").onclick = function () {
-    window.location.href = "css.html";
+    window.location.href = "skills.html";
   };
 
   document.getElementById("callForActionCenterImage").onclick = function () {
@@ -28,10 +28,10 @@ document.addEventListener("DOMContentLoaded", function () {
   };
 
   document.getElementById("dashboardLeftBottomPolygon").onclick = function () {
-    window.location.href = "js.html";
+    window.location.href = "communication.html";
   };
 
   document.getElementById("dashboardRightBottomPolygon").onclick = function () {
-    window.location.href = "react.html";
+    window.location.href = "contact.html";
   };
 });

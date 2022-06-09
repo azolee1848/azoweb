@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta content="width=device-width, initial-scale=1" name="viewport" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style/style.css" />
     <title>AZoWEB - honlap egyszerűen</title>
   </head>
@@ -31,22 +31,25 @@
     </header>
 
     <main>
-      <section class="main-container">
-        <section id="dashboardLeftTopPolygon">
-          <span>Technologies</span>
-        </section>
-        <section id="dashboardRightTopPolygon">
-          <span>Skills</span>
-        </section>
-
-        <img id="callForActionCenterImage" src="./image/envelope.svg" />
-
-        <section id="dashboardLeftBottomPolygon">
-          <span>Communication</span>
-        </section>
-        <section id="dashboardRightBottomPolygon">
-          <span>Contact</span>
-        </section>
+      <section class="contact-main-container">
+        <div id="contact-image-container">
+          <img
+            id="portrait"
+            class="rounded"
+            src="image/portrait-square.jpg"
+            alt=""
+          />
+        </div>
+        <div id="contact-details-container">
+          <h1 class="no-margin">Zoltan Arnoczky</h1>
+          <h2 class="margin-top-dot2rem">frontend developer</h2>
+          <h3>Contact me</h3>
+          <ul>
+            <li>Mobile: +36 30 741 4969</li>
+            <li>Email: info at azoweb dot hu</li>
+            <li>Address: Hungary, Sajoszoged, Kossuth ut 20. 3599</li>
+          </ul>
+        </div>
       </section>
     </main>
 

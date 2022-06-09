@@ -119,7 +119,7 @@ body {
   justify-content: center;
   overflow: hidden;
   transition: width 0.3s ease-in-out;
-  width: 15rem;
+  width: 23rem;
 }
 
 .menu__link {
@@ -163,8 +163,9 @@ body {
   width: 1rem;
 }
 
-#push-menu-to-the-right {
+#menu-container {
   display: flex;
+  visibility: hidden;
 }
 
 /* MAIN */
@@ -293,4 +294,95 @@ h2 {
 
 #callForActionCenterImage:hover {
   transform: scale(1.1);
+}
+
+/* Contact sub page content */
+
+/* #contact-image-container {
+} */
+
+.contact-main-container {
+  display: flex;
+  flex-wrap: wrap;
+  flex: 1 1 auto;
+  row-gap: 0.3rem;
+  justify-content: center;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 0.5rem;
+}
+
+#contact-details-container {
+  padding: 1rem;
+}
+
+.no-bottom-margin {
+  margin-bottom: 0;
+}
+
+.no-margin {
+  margin: 0;
+}
+
+.margin-top-dot2rem {
+  margin-top: 0.2rem;
+}
+
+#portrait {
+  width: 20rem;
+  margin: 0 auto;
+}
+
+.rounded {
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+/* MEDIA QUERY RULES */
+
+/* Tablet and large phone size */
+
+@media screen and (max-width: 650px) {
+  :root {
+    --polygonFontSize: 1.5rem;
+  }
+
+  #menu {
+    font-size: 0.7rem;
+    width: 15rem;
+  }
+
+  .menu__link {
+    margin-right: 0.5rem;
+  }
+
+  #logo {
+    width: 5rem;
+  }
+
+  #logo__link {
+    font-size: 0.7rem;
+  }
+
+  #portrait {
+    width: 18rem;
+  }
+}
+
+/* iPhone SE and similar size */
+
+@media screen and (max-width: 374px) {
+  :root {
+    --polygonFontSize: 1.2rem;
+  }
+
+  #portrait {
+    width: 16rem;
+  }
 }
