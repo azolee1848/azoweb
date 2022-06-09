@@ -306,6 +306,26 @@ h2 {
   justify-content: center;
 }
 
+/* Skills sub page rules */
+
+#skills-main-container {
+  display: flex;
+  flex-wrap: wrap;
+  flex: 1 1 auto;
+  row-gap: 0.3rem;
+  justify-content: center;
+}
+
+/* Communication sub page rules */
+
+#communication-main-container {
+  display: flex;
+  flex-wrap: wrap;
+  flex: 1 1 auto;
+  row-gap: 0.3rem;
+  justify-content: center;
+}
+
 /* Contact sub page content */
 
 #contact-main-container {
