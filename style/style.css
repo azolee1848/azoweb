@@ -43,6 +43,7 @@ body {
   font-family: "philo", Arial, Helvetica, sans-serif;
   margin: 0;
   padding: 0;
+  color: rgb(35, 35, 35);
 }
 
 /* HEADER */
@@ -192,6 +193,11 @@ h2 {
   font-size: 1rem;
 }
 
+.break {
+  flex-basis: 100%;
+  height: 0;
+}
+
 /* MAIN__DASHBOARD */
 
 #dashboardLeftTopPolygon {
@@ -306,6 +312,23 @@ h2 {
   justify-content: center;
 }
 
+.technology-logo {
+  flex-basis: 100%;
+  height: 10rem;
+}
+
+.redux-logo {
+  flex-basis: 19rem;
+}
+
+.react-logo {
+  flex-basis: 10rem;
+}
+
+.technology-logo-title-margin-bottom {
+  margin-bottom: 3rem;
+}
+
 /* Skills sub page rules */
 
 #skills-main-container {
@@ -324,6 +347,12 @@ h2 {
   flex: 1 1 auto;
   row-gap: 0.3rem;
   justify-content: center;
+}
+
+.communication-logo {
+  width: 15rem;
+  filter: invert(13%) sepia(75%) saturate(6335%) hue-rotate(244deg)
+    brightness(62%) contrast(140%);
 }
 
 /* Contact sub page content */
@@ -400,6 +429,10 @@ li {
   #portrait {
     width: 18rem;
   }
+
+  .communication-logo {
+    width: 12rem;
+  }
 }
 
 /* iPhone SE and similar size */
@@ -411,5 +444,9 @@ li {
 
   #portrait {
     width: 16rem;
+  }
+
+  .communication-logo {
+    width: 8rem;
   }
 }
