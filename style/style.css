@@ -83,8 +83,8 @@ body {
   height: 2rem;
   opacity: 0.8;
   transition: opacity 0.3s ease-in-out;
+  margin-left: 0.5rem;
   white-space: nowrap;
-  width: 7rem;
 }
 
 #logo:hover {
@@ -302,6 +302,22 @@ h2 {
   transform: scale(1.1);
 }
 
+.media {
+  display: flex;
+  align-items: flex-start;
+  align-content: center;
+}
+
+.media-content {
+  padding-top: 1rem;
+  padding-left: 1rem;
+}
+
+.media__logo {
+  display: flex;
+  align-self: center;
+}
+
 /* Technologies sub page rules */
 
 #technologies-main-container {
@@ -350,7 +366,8 @@ h2 {
 }
 
 .communication-logo {
-  width: 15rem;
+  display: flex;
+  width: 5rem;
   filter: invert(13%) sepia(75%) saturate(6335%) hue-rotate(244deg)
     brightness(62%) contrast(140%);
 }
@@ -429,10 +446,6 @@ li {
   #portrait {
     width: 18rem;
   }
-
-  .communication-logo {
-    width: 12rem;
-  }
 }
 
 /* iPhone SE and similar size */
@@ -444,9 +457,5 @@ li {
 
   #portrait {
     width: 16rem;
-  }
-
-  .communication-logo {
-    width: 8rem;
   }
 }
