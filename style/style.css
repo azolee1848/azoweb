@@ -355,9 +355,9 @@ h2 {
   justify-content: center;
 }
 
-/* Communication sub page rules */
+/* services sub page rules */
 
-#communication-main-container {
+#services-main-container {
   display: flex;
   flex-wrap: wrap;
   flex: 1 1 auto;
@@ -365,7 +365,7 @@ h2 {
   justify-content: center;
 }
 
-.communication-logo {
+.services-logo {
   display: flex;
   width: 5rem;
   filter: invert(13%) sepia(75%) saturate(6335%) hue-rotate(244deg)
