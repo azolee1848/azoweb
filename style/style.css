@@ -19,7 +19,7 @@
 /* Designed for 384px minimal width and bigger */
 
 :root {
-  --polygonBackgroundColor: rgb(165, 165, 165);
+  --polygonBackgroundColor: mediumseagreen;
   --polygonEnvelopeColor: white;
   --polygonEnvelopeIconSize: 40%;
   --polygonFontSize: 2rem;
@@ -291,8 +291,8 @@ h2 {
 }
 
 #callForActionCenterImage {
-  filter: invert(50%) sepia(1%) saturate(5477%) hue-rotate(124deg)
-    brightness(112%) contrast(100%);
+  filter: invert(67%) sepia(12%) saturate(2117%) hue-rotate(94deg)
+    brightness(87%) contrast(84%);
   margin: -3rem 0 -3rem 43.8%;
   transition: all 0.2s ease-in-out;
   width: 12.5%;
@@ -331,6 +331,10 @@ h2 {
 .technology-logo {
   flex-basis: 100%;
   height: 10rem;
+}
+
+.js-logo {
+  flex-basis: 10rem;
 }
 
 .redux-logo {
