@@ -28,7 +28,7 @@ document.addEventListener("DOMContentLoaded", function () {
   };
 
   document.getElementById("dashboardLeftBottomPolygon").onclick = function () {
-    window.location.href = "services.html";
+    window.location.href = "business.html";
   };
 
   document.getElementById("dashboardRightBottomPolygon").onclick = function () {

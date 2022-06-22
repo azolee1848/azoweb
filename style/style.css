@@ -46,6 +46,15 @@ body {
   color: rgb(35, 35, 35);
 }
 
+.more-space-under {
+  margin-bottom: 4rem;
+}
+
+.mail-link {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
 /* HEADER */
 
 #header {
@@ -374,6 +383,11 @@ h2 {
   width: 5rem;
   filter: invert(13%) sepia(75%) saturate(6335%) hue-rotate(244deg)
     brightness(62%) contrast(140%);
+}
+
+.check-icon {
+  width: 1rem;
+  height: 1rem;
 }
 
 /* Contact sub page content */
