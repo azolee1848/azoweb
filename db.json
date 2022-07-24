@@ -1,14 +1,18 @@
 {
-  "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
+  "results": [
+    { "id": 1, "Szorgalom": "3. szint" },
+    { "id": 2, "Gyorsaság": "2. szint" },
+    { "id": 3, "Kitartás": "5. szint" }
   ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
+  "goals": [
+    { "id": 1, "angol tanulás":
+     [ { "id": 1, "tanulás" }, { "id": 2, "vizsgázás" } ]
+    },
+    { "id": 2, "vezetés tanulás": [
+      { "id": 1, "elmélet": true },
+      { "id": 1, "gyakorlat": false }
+    ]}
   ],
-  "profile": {
-    "name": "typicode"
+  "users": [{ "azo": "asdf" }, { "lee": "fdsa" } ]
   }
 }
