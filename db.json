@@ -1,11 +1,14 @@
 {
-  users: ["José Maria", "John Skully"],
-  results: {
-    medal1: 4,
-    medal2: 5,
-    medal3: 1
-  },
-  meditation: {
-    link1: "https://youtube.com"
-  }
+   "users":[
+      "José Maria",
+      "John Skully"
+   ],
+   "results":{
+      "medal1":4,
+      "medal2":5,
+      "medal3":1
+   },
+   "meditation":{
+      "link1":"https://youtube.com"
+   }
 }
