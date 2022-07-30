@@ -1,11 +1,11 @@
 {
-   "results":{
-      "willpower":4,
-      "stamina":1,
-      "strategy":7,
-      "innovation":2,
-      "speed":8
-   },
+   "results":[
+      {"title": "willpower", "value":4, "description":"Akkor jár, ha egy régen kitűzött célodhoz újra és újra visszatérsz."},
+      {"title": "stamina", "value":1, "description":"Akkor jár, ha egy régen kitűzött célodat éred el."},
+      {"title": "strategy", "value":7, "description":"Akkor jár, ha sorban haladsz a célok megvalósításához szükséges lépésekkel."},
+      {"title": "innovation", "value":2, "description":"Új célkitűzésekért jár."},
+      {"title": "speed", "value":8, "description":"A megvalósítás lépéseinek gyorsaságáért jár."}
+   ],
    "goals":[
       {
          "id":1,
