@@ -1,17 +1,56 @@
 {
-  "results": [
-    { "id": 1, "Szorgalom": "3. szint" },
-    { "id": 2, "Gyorsaság": "2. szint" },
-    { "id": 3, "Kitartás": "5. szint" }
-  ],
-  "goals": [
-    { "id": 1, "angol tanulás":
-     [ { "id": 1, "tanulás": false }, { "id": 2, "vizsgázás": false } ]
-    },
-    { "id": 2, "vezetés tanulás": [
-      { "id": 1, "elmélet": true },
-      { "id": 1, "gyakorlat": false }
-    ]}
-  ],
-  "users": [{ "azo": "asdf" }, { "lee": "fdsa" } ]
+   "results":{
+      "willpower":4,
+      "stamina":1,
+      "strategy":7,
+      "innovation":2,
+      "speed":8
+   },
+   "goals":[
+      {
+         "id":1,
+         "title":"Angol tanulás",
+         "levels":[
+            {
+               "level":1,
+               "title":"Külföldi tanfolyam",
+               "accomplished":true
+            },
+            {
+               "level":2,
+               "title":"Nyelvvizsga",
+               "accomplished":false
+            }
+         ]
+      },
+      {
+         "id":2,
+         "title":"Fűtés korszerűsítés",
+         "levels":[
+            {
+               "level":1,
+               "title":"Egy halom pénz keresése",
+               "accomplished":true
+            },
+            {
+               "level":2,
+               "title":"Elemek beszerzése",
+               "accomplished":false
+            },
+            {
+               "level":3,
+               "title":"Elemek beszerelése",
+               "accomplished":false
+            }
+         ]
+      }
+   ],
+   "users":[
+      {
+         "azo":"asdf"
+      },
+      {
+         "lee":"fdsa"
+      }
+   ]
 }
