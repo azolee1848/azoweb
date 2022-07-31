@@ -12,11 +12,13 @@
          "title":"Angol tanulás",
          "levels":[
             {
+               "id": 1,
                "level":1,
                "title":"Külföldi tanfolyam",
                "accomplished":true
             },
             {
+               "id": 2,
                "level":2,
                "title":"Nyelvvizsga",
                "accomplished":false
@@ -28,16 +30,19 @@
          "title":"Fűtés korszerűsítés",
          "levels":[
             {
+               "id": 1,
                "level":1,
                "title":"Egy halom pénz keresése",
                "accomplished":true
             },
             {
+               "id": 2,
                "level":2,
                "title":"Elemek beszerzése",
                "accomplished":false
             },
             {
+               "id": 3,
                "level":3,
                "title":"Elemek beszerelése",
                "accomplished":false
